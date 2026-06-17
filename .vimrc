@@ -16,6 +16,9 @@ set hlsearch				" Enable Search Highlighr
 set laststatus=2			" Always display the status bar
 set clipboard=unnamedplus
 set pastetoggle=<F2>
+filetype on					" Enable file type detection
+filetype indent on			" Enable automatic indentation based on file type
+set showcmd					" Show partial command in the last line of the screen
 
 function! ModeToString()
 	let l:mode = mode()
